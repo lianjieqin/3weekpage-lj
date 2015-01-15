@@ -160,6 +160,13 @@ body {
           height: 55px;
           color: #fff;
           font-size: 14px;
+          vertical-align: middle;
+          span {
+            vertical-align: middle;
+          }
+          icon {
+            vertical-align: middle;
+          }
 
           &.create {
             icon {
@@ -169,7 +176,6 @@ body {
             }
           }
           &.cancel {
-            line-height: 30px;
             background: transparent;
             border: 1px solid #eaeeec;
           }
@@ -265,10 +271,12 @@ body {
           padding: 0 15px;
           border: none;
           border-radius: 5px;
+          font-size: 14px;
 
           icon {
             margin-right: 8px;
-
+            font-size: 20px;
+            vertical-align: middle;
           }
         }
       }
