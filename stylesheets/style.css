@@ -191,7 +191,7 @@ body div#wrap {
 }
 /* line 129, ../sass/style.scss */
 body div#wrap div.row {
-  background: url("/images/image.jpeg") center center no-repeat;
+  background: url("/images/background-image.jpeg") center center no-repeat;
   background-size: 100% 100%;
   height: 100%;
   width: 100%;
